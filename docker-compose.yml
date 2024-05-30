@@ -1,0 +1,16 @@
+#Este es el archivo docker compose que levanta la base de datos backend
+#Utiliza couchdb:3.3
+# la carpeta couchdb contiene los datos y se monta como un volumen
+# para que los datos persistan
+version: '3.1'
+services:
+  couchdb:
+    image: couchdb:3.3
+    container_name: couchdb
+    ports:
+      - "3333:5984"
+    volumes:
+      - ./couchdb:/opt/couchdb/data
+    environment:
+      COUCHDB_USER: admin
+      COUCHDB_PASSWORD: diplomado
