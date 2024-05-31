@@ -1,7 +1,30 @@
 # atrasvasolodockerAQ
+Este es un proyecto para realizar pruebas
+
+## Instalación
+Debes tener instalado docker y docker-compose en tu maquina
+
+## Uso
+Para ejecutar y levantar el proyecto debes ejecutar el siguiente comando ubicado en la raiz del proyecto
+```bash 
+docker-compose up -d
+```
+Para detener el proyecto ejecuta el siguiente comando
+```bash
+docker-compose down
+```
 
 
+## Acceso a la aplicación
+una vez levantado puedes acceder desde el navegador a la siguiente url a la apps
+```
+http://localhost:8080
+```
 
+el backend esta en la siguiente url
+```
+http://localhost:3333
+```
 
 
 ## Acceso a las opciones de administración
