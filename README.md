@@ -21,13 +21,9 @@ una vez levantado puedes acceder desde el navegador a la siguiente url a la apps
 http://localhost:8080
 ```
 
-el backend esta en la siguiente url
-```
-http://localhost:3333
-```
 
 
-## Acceso a las opciones de administración
+## Acceso a las opciones de administración (opcional)
 Si desea entrar a las opciones de administracion primero debe registrarse como admin, para ello debe ejecutar la siguiente peticion POST
 ```
 curl -X POST http://admin:diplomado@localhost:3333/atrasvasolo-administradores -H "Content-Type: application/json" -d '{

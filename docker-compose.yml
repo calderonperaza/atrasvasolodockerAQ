@@ -17,9 +17,9 @@ services:
       COUCHDB_PASSWORD: diplomado
       NODENAME: 127.0.0.1
   atrasvasolo:
-    image: calderonperaza/atrasvasolo:local
+    image: calderonperaza/atrasvasolo
     container_name: atrasvasolo
     ports:
-      - "80:80"
+      - "8080:80"
     depends_on:
       - couchdb
