@@ -7,11 +7,11 @@ Debes tener instalado docker y docker-compose en tu maquina
 ## Uso
 Para ejecutar y levantar el proyecto debes ejecutar el siguiente comando ubicado en la raiz del proyecto
 ```bash 
-docker-compose up -d
+docker compose up -d
 ```
 Para detener el proyecto ejecuta el siguiente comando
 ```bash
-docker-compose down
+docker compose down
 ```
 
 
